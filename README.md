@@ -1,20 +1,25 @@
 # Opensource Heroes Scraper
 
-这个 Python 脚本用于从 https://opensource-heroes.com/developers 网站抓取所有用户的名称，并考虑了分页情况。
+This Python script is designed to scrape the names of all users from the website https://opensource-heroes.com/developers, with support for pagination.
 
-## 环境设置
+## Setup
 
-我们使用 Conda 来管理 Python 环境。如果您还没有设置环境，请按照以下步骤操作：
+We use Conda to manage the Python environment. If you haven't set up your environment yet, follow these steps:
 
-1. 安装 Anaconda 或 Miniconda（如果尚未安装）。
+1. Install Anaconda or Miniconda (if not already installed).
 
-2. 创建并激活环境：
+2. Create and activate the environment:
    ```bash
    conda create -n learn python=3.9 -y
    conda activate learn
    ```
 
-如果您已经创建了环境，只需激活它：conda env list
+If you've already created the environment, simply activate it using:  
+```bash
+conda env list
+```
 
-
+Then install the required packages with:
+```bash
 pip install -r requirements.txt
+```
